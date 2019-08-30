@@ -1,0 +1,16 @@
+def sum_even_digits(num):
+    even_digits_sum = 0
+    pass
+    return even_digits_sum
+
+
+def sum_odd_digits(num):
+    odd_digits_sum = 0
+    pass
+    return odd_digits_sum
+
+
+if __name__ == "__main__":
+    number = input()
+    result = sum_even_digits(number) * sum_odd_digits(number)
+    print(result)
